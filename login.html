@@ -1,6 +1,27 @@
 <html>
 	<head>
 		<title>Login</title>
+		<style>
+		.button{
+		background-color: green;
+		color:white;
+		padding:6px 15px;
+		text-align:center;
+		text-decoration:none;
+		display:inline-block;
+		font-size:18px;
+		margin:4px 4px;
+		//cursor:pointer;
+		border-radius:8px;
+		box-shadow:0 12px 16px 0 rgba(0,0,0,0.24);//,0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		.box{
+		color:white;
+		text-decoration:none;}
+		.idreset{
+		padding:6px 5px;
+		font-size:15px;}
+		</style>
 	</head>
 	
 	<body>
@@ -15,8 +36,9 @@
 		<br><br>
 		<label>Password*</label> <input type="password" name="" />
 		<br><br>
-		<a href="page 1.html" target="_self"> Save </a> &nbsp;&nbsp;
-		<input type="reset"/> <br><br>
+		<button class="button">
+		<a href="page 1.html" target="_self" class="box"> Save </a></button> &nbsp;&nbsp;
+		<input type="reset" class="idreset"/> <br><br>
 		</form>
 	</body>
 </html>
